@@ -11,8 +11,10 @@ class App extends Component {
   };
 
   handleChange = event => {
-    const { name, value } = event.currentTarget;
-    this.setState({ [name]: value });
+    this.setState({ filter: event.currentTarget.value });
+
+    // const { name, value } = event.currentTarget;
+    // this.setState({ [name]: value });
   };
 
   formSubmitHandle = data => {

@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 
 const DeleteBtn = styled.button`
-  margin-left: 10px;
-
   background-color: orange;
   color: black;
   cursor: pointer;
